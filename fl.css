@@ -1,0 +1,28 @@
+ul{
+    list-style-type:none;
+    margin:10px;
+    padding:10px;
+    border:2px dotted red;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    align-items:center;
+    height:200px;
+}
+li{
+    margin:10px;
+    padding:10px;
+    border:1px solid;
+}
+.flex1{
+    order:2;
+    border:2px dotted blue;
+    flex: 1 1 5em;
+}
+
+.flex2{
+    order:6;
+    border: 2px dotted red;
+    flex:2 2 5em;
+}
